@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f4;
+    color: #202124;
+}
+
+.resume {
+    width: 70%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+.umair {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #4285f4;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #5f6368;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #4285f4;
+    border-bottom: 1px solid #dadce0;
+    padding-bottom: 8px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background-color: #e8f0fe;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #dadce0;
+    padding-top: 20px;
+    color: #5f6368;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+
+    .resume {
+        width: 85%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+}
